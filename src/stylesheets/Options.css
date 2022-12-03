@@ -1,0 +1,71 @@
+.options {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.options button {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 15px;
+  border: 2px solid rgba(96, 102, 208, 0.7);
+  border-radius: 12px;
+  color: rgba(96, 102, 208, 0.8);
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.options div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.options button p {
+  font-size: 18px;
+  font-weight: normal;
+  width: 100%;
+  display: flex;
+}
+
+.options button:hover {
+  background: #f9a826;
+  color: white;
+}
+
+/* -----Response---- */
+
+.options .correct {
+  transition: 0.3s;
+  background-color: #60bf88;
+  color: white;
+}
+
+.options .incorrect {
+  transition: 0.3s;
+  background-color: #ea8282;
+  color: white;
+}
+
+.options .correct:hover {
+  background-color: #60bf88;
+}
+
+.options .incorrect:hover {
+  background-color: #ea8282;
+}
+
+/* ------Icons-------- */
+.close {
+  display: none;
+}
+.check {
+  display: none;
+}
+
+.visible {
+  display: block;
+}

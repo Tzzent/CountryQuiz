@@ -1,0 +1,44 @@
+.card-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-results {
+  text-align: center;
+  line-height: 70px;
+  margin: 30px auto;
+}
+
+.card-results h3 {
+  font-size: 48px;
+  color: #1d355d;
+}
+.card-results p {
+  font-size: 18px;
+  color: #1d355d;
+  letter-spacing: 2px;
+}
+.card-results span {
+  color: #6fcf97;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.card-results button {
+  background-color: #fff;
+  border-radius: 12px;
+  border: 2px solid #1d355d;
+  width: 210px;
+  padding: 20px;
+  cursor: pointer;
+  color: #1d355d;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-results button:hover {
+  background-color: #54b435;
+  color: white;
+}

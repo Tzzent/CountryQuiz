@@ -1,0 +1,10 @@
+.img-flag {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.img-flag img {
+  width: 100%;
+  box-shadow: 1px 2px 5px 2px rgb(0, 0, 0, 0.3);
+  border-radius: 12px;
+}
